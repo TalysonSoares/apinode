@@ -15,7 +15,7 @@ function execusao(pedido, resposta) {
     let conteudo = router(pedido.url)
 
     //enviando o conteudo que tinha no router como resposta pro cliente
-    resposta.end(conteudo)
+    resposta.end(JSON.stringify(conteudo));
 }
 
 //criando servidor e definindo a funcao que ficara sendo executada

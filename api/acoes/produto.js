@@ -1,5 +1,15 @@
 function listar() {
-    return "Listar Produtos";
+    return [
+        {
+            id: 1,
+            nome: "Ypioca"
+        },
+        {
+            id: 2,
+            nome: "Heineken"
+        },
+
+    ];
 }
 
 function cadastrar() {

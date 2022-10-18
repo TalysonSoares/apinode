@@ -1,5 +1,14 @@
 function listar() {
-    return "Listar Cliente";
+    return [
+        {
+            id: 1,
+            nome: "Talyson"
+        },
+        {
+            id: 2,
+            nome: "Ale"
+        }
+    ];
 }
 
 function cadastrar() {
