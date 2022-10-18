@@ -15,6 +15,8 @@ function execusao(pedido, resposta) {
     let conteudo = router(pedido.url)
 
     //enviando o conteudo que tinha no router como resposta pro cliente
+
+    // resposta.writeHead(404)
     resposta.end(JSON.stringify(conteudo));
 }
 

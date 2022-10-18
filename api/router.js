@@ -9,7 +9,7 @@ function router(url) {
         return produto.listar();
     }
 
-    return "Error 404"
+    return "Error 404";
 }
 
 module.exports = router;
