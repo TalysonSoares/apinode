@@ -1,7 +1,5 @@
 const http = require('http');
 
-const produto = require('./acoes/produto');
-const cliente = require('./acoes/cliente');
 const router = require('./router');
 
 const host = 'localhost';

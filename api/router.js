@@ -1,9 +1,12 @@
+const produto = require('./acoes/produto');
+const cliente = require('./acoes/cliente');
+
 function router(url) {
     if (url === '/clientes') {
-        return "Listar Clientes";
+        return cliente.listar();
     }
     if (url === '/produtos') {
-        return "Listar Produtos";
+        return produto.listar();
     }
 
     return "Error 404"
